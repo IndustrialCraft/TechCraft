@@ -1,0 +1,15 @@
+{
+  "type": "techcraft:knapping_recipe",
+  "input" : {
+    "item": "minecraft:flint"
+  },
+  "pattern": [
+    "01110",
+    "10001",
+    "00000",
+    "00000",
+    "00000"
+  ],
+  "outputItem": "minecraft:stone_pickaxe",
+  "outputAmount": "1"
+}

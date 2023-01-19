@@ -1,0 +1,12 @@
+package com.github.industrialcraft.techcraft.multiblock;
+
+import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.util.math.BlockPos;
+
+public class MultiblockControllerBlockEntity extends BlockEntity {
+    public MultiblockControllerBlockEntity(BlockEntityType<?> type, BlockPos pos, BlockState state) {
+        super(type, pos, state);
+    }
+}
